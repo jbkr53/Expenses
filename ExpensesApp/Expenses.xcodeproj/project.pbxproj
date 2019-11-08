@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		597FEC442375CC7000923E56 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FEC422375CC6F00923E56 /* Expense+CoreDataClass.swift */; };
-		597FEC452375CC7000923E56 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FEC432375CC7000923E56 /* Expense+CoreDataProperties.swift */; };
+		597FEC482375CDAD00923E56 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FEC462375CDAD00923E56 /* Expense+CoreDataClass.swift */; };
+		597FEC492375CDAD00923E56 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597FEC472375CDAD00923E56 /* Expense+CoreDataProperties.swift */; };
 		FE4382E61FD0B8FD000FACCD /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4382E51FD0B8FD000FACCD /* ExpensesViewController.swift */; };
 		FE4382E81FD0B917000FACCD /* SingleExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4382E71FD0B917000FACCD /* SingleExpenseViewController.swift */; };
 		FEEEA2CC1FD0B6A200D1F554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEEA2CB1FD0B6A200D1F554 /* AppDelegate.swift */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		597FEC422375CC6F00923E56 /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = "<group>"; };
-		597FEC432375CC7000923E56 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		597FEC462375CDAD00923E56 /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		597FEC472375CDAD00923E56 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		FE4382E51FD0B8FD000FACCD /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
 		FE4382E71FD0B917000FACCD /* SingleExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExpenseViewController.swift; sourceTree = "<group>"; };
 		FEEEA2C81FD0B6A200D1F554 /* Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,8 +85,6 @@
 		FEEEA2BF1FD0B6A200D1F554 = {
 			isa = PBXGroup;
 			children = (
-				597FEC422375CC6F00923E56 /* Expense+CoreDataClass.swift */,
-				597FEC432375CC7000923E56 /* Expense+CoreDataProperties.swift */,
 				FEEEA2CA1FD0B6A200D1F554 /* Expenses */,
 				FEEEA2E21FD0B6A200D1F554 /* ExpensesTests */,
 				FEEEA2ED1FD0B6A300D1F554 /* ExpensesUITests */,
@@ -107,6 +105,8 @@
 		FEEEA2CA1FD0B6A200D1F554 /* Expenses */ = {
 			isa = PBXGroup;
 			children = (
+				597FEC462375CDAD00923E56 /* Expense+CoreDataClass.swift */,
+				597FEC472375CDAD00923E56 /* Expense+CoreDataProperties.swift */,
 				FEEEA2CB1FD0B6A200D1F554 /* AppDelegate.swift */,
 				FE4382E51FD0B8FD000FACCD /* ExpensesViewController.swift */,
 				FE4382E71FD0B917000FACCD /* SingleExpenseViewController.swift */,
@@ -273,8 +273,8 @@
 			files = (
 				FEEEA2D41FD0B6A200D1F554 /* Expenses.xcdatamodeld in Sources */,
 				FEEEA2CC1FD0B6A200D1F554 /* AppDelegate.swift in Sources */,
-				597FEC452375CC7000923E56 /* Expense+CoreDataProperties.swift in Sources */,
-				597FEC442375CC7000923E56 /* Expense+CoreDataClass.swift in Sources */,
+				597FEC492375CDAD00923E56 /* Expense+CoreDataProperties.swift in Sources */,
+				597FEC482375CDAD00923E56 /* Expense+CoreDataClass.swift in Sources */,
 				FE4382E61FD0B8FD000FACCD /* ExpensesViewController.swift in Sources */,
 				FE4382E81FD0B917000FACCD /* SingleExpenseViewController.swift in Sources */,
 			);
