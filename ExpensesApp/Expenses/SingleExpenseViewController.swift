@@ -27,7 +27,7 @@ class SingleExpenseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func saveExpense(_ sender: Any) {
+    @IBAction func saveExpense(_ sender: AnyObject) {
         let name = nameTextField.text
         let amountText = amountTextField.text ?? ""
         let amount = Double(amountText) ?? 0.0
@@ -36,11 +36,12 @@ class SingleExpenseViewController: UIViewController {
         if let expense = Expense(name: name, amount: amount, date: date) {
             do {
                 let managedContext = expense.managedObjectContext
+                
                 try managedContext?.save()
+                
                 self.navigationController?.popViewController(animated: true)
-            }
-            catch {
-                print("Contect could not be saved")
+            }catch {
+                print("Context could not be saved")
             }
         }
     }

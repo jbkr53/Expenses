@@ -23,14 +23,17 @@ class ExpensesViewController: UIViewController {
         dateFormatter.timeStyle = .long
         dateFormatter.dateStyle = .long
     }
+    
     // fetching
     override func viewWillAppear(_ animated: Bool) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            
             return
             
         }
         let managedContext = appDelegate.persistentContainer.viewContext
         let fetchRequest: NSFetchRequest<Expense> = Expense.fetchRequest()
+        
         do{
             expenses = try managedContext.fetch(fetchRequest)
             
